@@ -1,0 +1,9 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file alias="icon.ico">resources/icon.ico</file>
+        <file alias="github.svg">resources/github.svg</file>
+        <file alias="Lato-Regular.ttf">resources/Lato-Regular.ttf</file>
+        <file alias="stylesheet.qss">resources/stylesheet.qss</file>
+    </qresource>
+</RCC>

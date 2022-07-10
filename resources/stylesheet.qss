@@ -1,0 +1,70 @@
+QWidget#mainWidget
+{
+    background-color: qlineargradient(x1: 0, y1: 0 x2: 1, y2: 0, stop: 0 #753a88, stop: 1 #cc2b5e  );
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+}
+
+QStatusBar {
+    background-color: qlineargradient(x1: 0, y1: 0 x2: 1, y2: 0, stop: 0 #753a88, stop: 1 #cc2b5e  );
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    color: #fff;
+}
+
+
+QLabel, QPushButton, QLineEdit {
+    color:#fff;
+    border:none;
+    font-size:16px;
+}
+
+QLabel#imgQualityLabel {
+    padding-bottom:4px;
+}
+
+QPushButton {
+    background: #3C0949;
+    padding:10px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+QLabel#title {
+    font-size: 26px;
+    color:#fff;
+}
+
+QLabel#subtitle {
+    font-size: 16px;
+} 
+
+
+QPushButton#headerBtn {
+    padding:4px;
+    font-size:16px;
+    background:none;
+    font-weight:bold;
+}
+
+QLabel#githubBtn {
+    padding:6px;
+    font-size:12px;
+    font-weight:bold;
+}
+
+QLineEdit#delayInput {
+    border-top-left-radius:2px;
+    border-bottom-left-radius:2px;
+    border-top-right-radius:2px;
+    border-bottom-right-radius:2px;
+    background: #3C0949;
+    color: #fff;
+    padding:2px;
+}
+
+QSlider::handle:horizontal {
+    background-color: #3C0949;
+}
