@@ -8,6 +8,8 @@ A simple bulk WebP image converter built using PyQt5
 
 or clone the repo and run:
 
-`pip3 install -r requirements.txt`
+```
+pip3 install -r requirements.txt
 
-`python app.py`
+python app.py
+```
